@@ -20,7 +20,7 @@ MitraLink is the mobile app built by Team Clinovators during the *Product Design
 
 This snapshot is honest about where the prototype stopped:
 
-- **The live device connection is not implemented.** `lib/screens/monitor_data_page.dart` enables Wi-Fi and contains the placeholder comment `// Add Arduino connection logic here`. The app does not yet fetch readings from the device.
+- **The live device connection is not in this app.** `lib/screens/monitor_data_page.dart` enables Wi-Fi and contains the placeholder comment `// Add Arduino connection logic here`. MitraLink was the main user-interface prototype; the live connection to the device was demonstrated in a separate companion app that is not published in this repository. Merging both into one package was the team's goal and remains unfinished.
 - **Data model mismatch.** The app model has an SpO₂ field, but the companion firmware reports heart rate (BPM), temperature, systolic, diastolic and BP-module pulse.
 - The Google Maps key in `AndroidManifest.xml` is a placeholder (`YOUR_GOOGLE_MAPS_API_KEY`). Add your own key to enable the map.
 
